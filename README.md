@@ -77,7 +77,7 @@ private void AutoDetect()
     }
 }
 ```
-This is just a very basic example. For production it is recommended to adjust individual settings of your game based on the hardware that is used. Textures are rendered using the GPU and anti aliasing (depending on the method) uses the CPU.
+This is just a very basic example. For production purposes it is recommended that you adjust individual settings of your game based on the hardware component being utilized. For example, a low D3D score should result in resolution reduction of both textures and the framebuffer while low CPU scores should result in reduced animation quality, asset streaming activity, CPU-driven physics simulations, etc..
 ### An example application made for demonstration purposes:
 ![An example project created using the WinSAT API.](https://www.dl.dropboxusercontent.com/s/48bl16gaz5ep8bo/Photo%20Mar%2013%2C%207%2053%2051%20PM.jpg?dl=1)
 
@@ -86,4 +86,4 @@ Windows Vista and later.
 
 ## Disclaimer:
 
-WinSAT should not be used for applications with the sole purpose of benchmarking. WinSAT determines hardware scores by running tests that reflect daily to intense operations calculated by time to completion.
+WinSAT should not be used for the sole purpose of system benchmarking. WinSAT determines hardware scores by running tests that reflect daily to intense operations (per Microsoft) and then comparing execution times of said operations to a pre-defined dataset.
