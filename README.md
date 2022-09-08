@@ -1,5 +1,5 @@
 # WinSAT API Tutorial
-A tutorial on interacting with the Windows System Assessment Tool (WinSAT) API in .NET.
+A tutorial on interacting with the [Windows System Assessment Tool (WinSAT) API](https://docs.microsoft.com/en-us/windows/win32/winsat/windows-system-assessment-tool-portal) in .NET.
 
 The WinSAT API enables developers to retrieve computer performance and assessment state information from WinSAT. This enables developers to determine optimal application and video game settings based on a computers performance capabilities using data provided by WinSAT.
 
